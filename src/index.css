@@ -1,13 +1,147 @@
+html,
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  padding: 0;
+}
+
+:root {
+  --purple: #e2cfeaff;
+  --dark-green: #648767ff;
+  --green: #7dc95eff;
+  --light-green: #7cdf64ff;
+  --black: #0f0a0aff;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+/**Header**/
+
+header {
+  margin: 0 auto;
+  background: var(--black);
+  overflow: hidden;
+  padding: 0;
+}
+
+header h3 {
+  color: var(--purple);
+  font-size: 1.5rem;
+  font-weight: bold;
+  padding: 0 20px;
+  float: left;
+  display:inline;
+  margin-top: 15px;
+}
+
+nav {
+  margin: 0;
+}
+
+nav li {
+  float: left;
+  list-style: none;
+  text-align: center;
+  text-decoration: none;
+  padding: 0 20px;
+}
+
+.active {
+  color: var(--green) !important;
+}
+
+header span {
+  color: var(--purple);
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+header span:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+/**Section**/
+
+main {
+  margin: 0 auto;
+  max-width: 80%;
+  padding: 0 20px;
+}
+
+section {
+  margin-bottom: 70px;
+}
+
+/**Contact**/
+
+form {
+  border-radius: 3px;
+  background-color: #f2f2f2;
+  padding: 10px;
+}
+
+form input,textarea {
+  width: 100%;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+  margin: 6px 0;
+  resize: vertical
+}
+
+
+form button:hover {
+  background-color: var(--dark-green);
+  cursor: pointer;
+}
+
+/**Portfolio**/
+
+.wrapper {
+  background-size: cover;
+  display: grid;
+  align-items: center;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+}
+
+/**Project**/
+
+.thumbnail {
+  border: 1px solid #ddd; 
+  border-radius: 5px; 
+  padding: 5px; 
+  margin: 5px;
+  width: 250px; 
+  text-align: center;
+}
+
+.thumbnail img {
+  width: 100%; /* or any custom size */
+  height: 60%; 
+  object-fit: contain;
+}
+
+/**Footer**/
+footer {
+  position: fixed;
+  width: 100%;
+  left: 0;
+  bottom: 0;
+  text-align: center;
+  background: var(--black);
+  color: var(--purple);
+}
+
+.footer-links {
+  list-style-type: none;
+}
+
+.footer-links li {
+  display: inline;
 }
