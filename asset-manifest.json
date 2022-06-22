@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/trilogy-challenge-week1-portfolio/static/css/main.b70e47df.css",
-    "main.js": "/trilogy-challenge-week1-portfolio/static/js/main.ed037ddc.js",
+    "main.css": "/trilogy-challenge-week1-portfolio/static/css/main.25ebb8a2.css",
+    "main.js": "/trilogy-challenge-week1-portfolio/static/js/main.1f5b34b9.js",
     "static/media/twitch-streamers.png": "/trilogy-challenge-week1-portfolio/static/media/twitch-streamers.49be5be3672329a711c5.png",
     "static/media/recipe-book.png": "/trilogy-challenge-week1-portfolio/static/media/recipe-book.a4450115352605d501db.png",
     "static/media/tribute-page.png": "/trilogy-challenge-week1-portfolio/static/media/tribute-page.f91b2f0fddb173944dd3.png",
@@ -11,11 +11,11 @@
     "static/media/me.jpg": "/trilogy-challenge-week1-portfolio/static/media/me.09912f415f5756f166be.jpg",
     "static/media/wikipedia-search.png": "/trilogy-challenge-week1-portfolio/static/media/wikipedia-search.792f29d7bf69fab924c3.png",
     "index.html": "/trilogy-challenge-week1-portfolio/index.html",
-    "main.b70e47df.css.map": "/trilogy-challenge-week1-portfolio/static/css/main.b70e47df.css.map",
-    "main.ed037ddc.js.map": "/trilogy-challenge-week1-portfolio/static/js/main.ed037ddc.js.map"
+    "main.25ebb8a2.css.map": "/trilogy-challenge-week1-portfolio/static/css/main.25ebb8a2.css.map",
+    "main.1f5b34b9.js.map": "/trilogy-challenge-week1-portfolio/static/js/main.1f5b34b9.js.map"
   },
   "entrypoints": [
-    "static/css/main.b70e47df.css",
-    "static/js/main.ed037ddc.js"
+    "static/css/main.25ebb8a2.css",
+    "static/js/main.1f5b34b9.js"
   ]
 }
