@@ -35,7 +35,7 @@ header h3 {
   font-weight: bold;
   padding: 0 20px;
   float: left;
-  display:inline;
+  display: inline;
   margin-top: 15px;
 }
 
@@ -86,15 +86,15 @@ form {
   padding: 10px;
 }
 
-form input,textarea {
+form input,
+textarea {
   width: 100%;
   border: 1px solid #ccc;
   border-radius: 5px;
   box-sizing: border-box;
   margin: 6px 0;
-  resize: vertical
+  resize: vertical;
 }
-
 
 form button:hover {
   background-color: var(--dark-green);
@@ -103,7 +103,7 @@ form button:hover {
 
 /**Portfolio**/
 
-.wrapper {
+.thumbnail-wrapper {
   background-size: cover;
   display: grid;
   align-items: center;
@@ -113,18 +113,18 @@ form button:hover {
 /**Project**/
 
 .thumbnail {
-  border: 1px solid #ddd; 
-  border-radius: 5px; 
-  padding: 5px; 
+  border: 1px solid #ddd;
+  border-radius: 5px;
   margin: 5px;
-  width: 250px; 
   text-align: center;
+  width: 250px;
+  height: 350px;
 }
 
 .thumbnail img {
-  width: 100%; /* or any custom size */
-  height: 60%; 
-  object-fit: contain;
+  width: 250px;
+  height: 200px;
+  object-fit: cover;
 }
 
 /**Footer**/
