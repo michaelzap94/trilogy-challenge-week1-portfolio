@@ -78,6 +78,12 @@ section {
   margin-bottom: 70px;
 }
 
+/**About**/
+.about-img {
+  max-width: 100%;
+  height: auto;
+}
+
 /**Contact**/
 
 form {
@@ -133,15 +139,16 @@ footer {
   width: 100%;
   left: 0;
   bottom: 0;
-  text-align: center;
   background: var(--black);
   color: var(--purple);
 }
 
 .footer-links {
-  list-style-type: none;
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .footer-links li {
-  display: inline;
+  margin: auto;
 }

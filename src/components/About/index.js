@@ -4,7 +4,7 @@ import me from "../../assets/About/me.jpg";
 const About = () => {
   return (
     <section>
-      <img src={me} alt="me" />
+      <img className="about-img" src={me} alt="me" />
       <div>
         I have a proven record in delivering cutting-edge software applications
         within corporate and start-up ecosystems, analysing and bringing
